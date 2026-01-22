@@ -1,12 +1,12 @@
+# this is how single line comment works
+"""
+    multiline comments
+"""
+print("Hello, World")
+print("Hello," + " " + "Tamim")
+print("Welcome\nTamim")
 
-# sum of two numbers
-
-a = input("Enter a Number: ")
-b = input("Enter another Number: ")
-c = int(a) + int(b)
-
-print(c)
-
+print("Hi, " + input("What is your name?\n") + "!")
 
 print("""
 Twinkle, twinkle, little star,
@@ -32,6 +32,14 @@ Till the sun is in the sky.
 As your bright and tiny spark
 Lights the traveler in the dark,
 Though I know not what you are,
-Twinkle, twinkle, little star.
+Twinkle, twinkle, little star.        
 """)
 
+
+# This will take a, b as a string 
+a = input("Enter a number: ") # 1
+b = input("Enter a number: ") # 2
+print(a+b) # 12
+
+# another way to print is f-string(formatted string literal)
+print(f'sum is {a+b}')
