@@ -9,6 +9,8 @@ print(name[-5:]) # last 6 characters
 print(name[::2]) # skipping one character
 print(name[::-1]) # reverse string
 
+
+
 # print(name.capitalize()) # capitalize first letter
 # print(name.upper()) # convert to uppercase
 # print(name.lower()) # convert to lowercase
@@ -18,3 +20,4 @@ print(name[::-1]) # reverse string
 # print(name.split(" ")) # split string by space
 # print(name.startswith("Taslim")) # check starting substring
 # print(name.endswith("Tamim")) # check ending substring
+# print(name.strip()) # remove leading/trailing whitespace
