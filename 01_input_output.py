@@ -2,6 +2,10 @@
 """
     multiline comments
 """
+'''
+    also mutliline comments
+'''
+
 print("Hello, World")
 print("Hello," + " " + "Tamim")
 print("Welcome\nTamim")
