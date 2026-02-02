@@ -7,5 +7,6 @@
 import qrcode
 
 url = input("Enter the URL to encode in QR Code: ").strip()
+
 myqr = qrcode.make(url)
-myqr.save("qrcode.png", scale = 8)
+myqr.save("qrcode.png")
