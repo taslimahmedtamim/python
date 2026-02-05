@@ -18,14 +18,14 @@ print(name[::-1]) # reverse string
 print(name.capitalize()) # capitalize first letter
 print(name.upper()) # convert to uppercase
 print(name.lower()) # convert to lowercase
-print(name.replace("Tamim", "Tamim Ahmed")) # replace substring
-print(name.find("Ahmed")) # find substring index
+print(name.replace("Ahmed", "Majumder")) # replace substring
+print(name.find("a")) # find the first occurence and give the index
+print(name.rfind("a")) # find the last occurence and give the index
 print(name.count("a")) # count occurrences of substring
 print(name.split(" ")) # split string by space
 print(name.startswith("Taslim")) # check starting substring
 print(name.endswith("Tamim")) # check ending substring
 print(name.strip()) # remove leading/trailing whitespace
-
 print(name.title()) # capitalize first letter of each word
 print(name.swapcase()) # swap case of each character
 print(name.center(30, "-")) # center string with padding
@@ -50,4 +50,5 @@ print(f"Name in uppercase: {name.upper()}") # f-string with method
 print(f"2 + 2 = {2 + 2}") # f-string with expression
 
 
-
+# get help on string class:
+# print(help(str)) 
