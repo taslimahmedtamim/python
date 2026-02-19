@@ -31,6 +31,7 @@ print(x and y) # logical AND
 print(x or y) # logical OR
 print(not x) # logical NOT
 
+# assignment operators
 a = 5
 a += 3 # a = a + 3
 a -= 2 # a = a - 2

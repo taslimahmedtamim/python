@@ -22,3 +22,7 @@ def myfunc4():
     w = "Fantastic"
 myfunc4()
 print("python is " + w)
+
+
+def yo():
+    pass # empty function, does nothing

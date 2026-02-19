@@ -47,3 +47,5 @@ print(a+b) # 12
 
 # another way to print is f-string(formatted string literal)
 print(f'sum is {a+b}')
+
+print(round(2.3456, 2)) # we can set decimal place after points using round function : 2.35

@@ -18,5 +18,5 @@ match x:
     case 7:
         print("friday")
     case _:
-        print("invalid input")
+        pass # default case, do nothing
         
