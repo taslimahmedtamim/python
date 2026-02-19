@@ -26,3 +26,19 @@ print("python is " + w)
 
 def yo():
     pass # empty function, does nothing
+
+def greet(name="Tamim"): # default parameter value
+    print("Hello, " + name + "!")
+    
+# Multiple arguments
+def add(*args): # accepts variable number of arguments as a tuple
+    return sum(args)
+    
+print(add(1, 2, 3, 4))
+
+# Keyword arguments
+def name(**kwargs): # accepts variable number of keyword arguments as a dictionary
+    for key, value in kwargs.items():
+        print(f"{key}: {value}")
+
+name(name="Tamim", age=22, city="Dhaka")

@@ -1,4 +1,4 @@
-# tuple = () : ordered, unchangeable, allows duplicate members
+# tuple = () : ordered, unchangeable, allows duplicate members, faster than lists
 
 colors = ("red", "green", "blue", "red")
 print(colors)

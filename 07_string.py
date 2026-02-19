@@ -13,6 +13,9 @@ print(name[-5:]) # last 6 characters
 print(name[::2]) # skipping one character
 print(name[::-1]) # reverse string
 
+# string sorting
+print(sorted(name)) # returns a sorted list of characters
+# print(name.sort()) # this will give an error because strings are immutable and do not have a sort() method
 
 # String methods
 print(name.capitalize()) # capitalize first letter

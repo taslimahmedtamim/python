@@ -17,14 +17,20 @@ print(fruits[-3:]) # last 3 elements
 print(fruits[::2]) # skipping one element
 print(fruits[::-1]) # reverse list  
 
+# list sorting
+names = ["tamim", "rahim", "karim"]
+print(sorted(names)) # returns new sorted list (original unchanged)
+print(sorted(names, reverse=True)) # returns new sorted list in reverse order (original unchanged)
+print(names.sort()) # sort list in place (modifies original list)
+print(names.sort(reverse=True)) # sort list in place in reverse order (modifies original list)
+
+
 # list methods
 fruits.append("orange") # add element to end
 fruits.insert(1, "grape") # insert element at index 1
 fruits.remove("apple") # remove first occurrence of element
 fruits.pop() # remove and return last element
 fruits.pop(1) # remove and return element at index 1
-fruits.sort() # sort list in ascending order
-fruits.sort(reverse=True) # sort list in descending order
 fruits.reverse() # reverse the order of the list
 fruits.extend(["kiwi", "mango"]) # extend list by appending elements from another list
 fruits.count("banana") # count occurrences of element
